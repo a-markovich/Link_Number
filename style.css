@@ -1,0 +1,185 @@
+  html, body {
+    margin: 0;
+  }
+  body {
+    background-color: #793A36;
+    font-family: "Inter", sans-serif;
+  }
+  #container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .btnLevel{
+    flex: 0 0 auto;
+  }
+  .arrow{
+    cursor: pointer;
+    flex: 1 1 auto;
+  }
+  .btnBack {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #SVGContAnim {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  #containerMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F0AD87;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  #aboutGame {
+    margin: 5%;
+    text-align: center;
+    color: #F0AD87;
+  }
+  #options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F0AD87;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .mainMenuBtn {
+    margin: 3rem;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: #793A36;
+    border: solid 3px #F0AD87;
+    color: #F0AD87;
+  }
+  .checkbox {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 30%;
+    cursor: pointer;
+    border: solid 3px #F0AD87;
+  }
+  .param {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .btnMain {
+    margin: 5px;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: #793A36;
+    border: solid 3px #F0AD87;
+    color: #F0AD87;
+  }
+  .inputMain {
+    margin: 10px;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 2rem;
+    background-color: #793A36;
+    border: solid 3px #FC7668;
+    color: #FC7668;
+    text-align: center;
+    outline: none;
+  }
+  .inputMain::placeholder {
+    color: #FC7668;
+    opacity: 0.5;
+  }
+  .inputMain:focus {
+    border: solid 3px #FC7668;
+    box-shadow: 0px 0px 10px #FC7668;
+  }
+  
+
+  #IProgress {
+    border-radius: 0.5rem;
+    border: solid #F0AD87 3px;
+    box-shadow: 0px 0px 10px #F0AD87;
+    width: 15rem;
+    height: 2rem;
+    margin: auto;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  #IProgressPerc {
+    border-radius: 0.2rem;
+    width: 0%;
+    height: 2rem;
+    background-color: #F0AD87;
+  }
+  #loadingText {
+    position: absolute;
+    top: 0.4rem;
+    left: 1rem;
+    text-align: center;
+    margin: auto;
+    color: #F0AD87;
+  }
+
+  #modal {
+    display: none;
+    background-color: rgba(121, 58, 54, 0.8);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .leaderboard {
+    padding: 1rem;
+    background-color: #793A36;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    border: solid 3px #F0AD87; 
+    border-radius: 1rem; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    max-width: 50rem;
+  }
+  .leaderboardColl {
+    margin: 0.5rem;
+    text-align: center; 
+    color: #F0AD87;
+  }
+  #closeModalId {
+    cursor: pointer;
+    background-color: #793A36;
+    border: solid 3px #F0AD87;
+    color: #F0AD87;
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 0.7rem;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+  }
